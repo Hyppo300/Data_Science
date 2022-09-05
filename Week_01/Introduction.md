@@ -61,19 +61,20 @@ AI: Data analytics + data science + business analytics + business intelligence} 
 -	Independent : P(A or B)= P(A) * p(B/A)->conditional probability
 -	Dependent : P(A or B) = P(A) * P(B)
 
-#Day-03: Combinatorics:
+# Day-03: Combinatorics:
+
 [Reference](https://medium.com/@kirk.borne/data-science-meets-combinatorics-29738280342e)
 
 Combinatorics is the mathematics of counting and arranging. Combinatorics is often concerned with how things are arranged. In this context, an arrangement 
 is a way objects could be grouped. The most basic rules regarding arrangements are the rule of product and the rule of sum. These rules govern how to count 
 arrangements using the operations of multiplication and addition, respectively.
-Example: A fair coin is tossed twice. Write down the set of possible outcomes. What is the probability of obtaining?
+>Example: A fair coin is tossed twice. Write down the set of possible outcomes. What is the probability of obtaining?
 1. Exactly one head
 2. No head
 
 Answer: p1 =  0.5, p2 =  0.25
 
-#Day-04: Python Basics: 
+# Day-04: Python Basics: 
 -	Hello world: To print hello world in python, write print followed by () and print you required data.
 -	Variables and types: Python does not need you to specify data types for variables.
 -	Deals with only float and integers numbers {integer a=7 and float a=7.0}
