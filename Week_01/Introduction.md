@@ -38,6 +38,7 @@ Data scientists are required in every field.
  
 ## Data Science (Past-Present-Future)
 {Business x Data: Preliminary data reports, qualitative analysis, sales forecasting, reporting with visuals, creating dashboards} -> Past
+
 {Business Analytics: Sales forecasting
 Data : Data analysis
 Data science: optimization of drilling operations
