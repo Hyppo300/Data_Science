@@ -1,4 +1,4 @@
-***# What is Data Science?***
+# Day-01: What is Data Science?
 Data science is a combination of mathematics and computer science field. Data scientist’s role is to analyze the data and find useful insights from it which 
 can be used to improve business. 
 Data scientists works between IT companies and businesses in a way that they provide IT based solution for business enhancements using data.
@@ -47,7 +47,7 @@ Business Intelligence X machine learning: creating real time dashboards
 Data science X ML: Speech Recognition, Image Recognition
 AI: Data analytics + data science + business analytics + business intelligence} -> Present & Future
 
-# Probability:
+# Day-02: Probability:
 -	It is measure of likelihood of an event.
 -	Example: Tossing a coin and picking card from a deck
 -	Probability = No of times an event has occurred/No of possible outcomes. P(H) = ½ for tossing a coin, P(1) when rolling a dice = 1/6
@@ -61,7 +61,7 @@ AI: Data analytics + data science + business analytics + business intelligence} 
 -	Independent : P(A or B)= P(A) * p(B/A)->conditional probability
 -	Dependent : P(A or B) = P(A) * P(B)
 
-# Combinatorics:
+#Day-03: Combinatorics:
 [Reference](https://medium.com/@kirk.borne/data-science-meets-combinatorics-29738280342e)
 
 Combinatorics is the mathematics of counting and arranging. Combinatorics is often concerned with how things are arranged. In this context, an arrangement 
@@ -73,7 +73,7 @@ Example: A fair coin is tossed twice. Write down the set of possible outcomes. W
 
 Answer: p1 =  0.5, p2 =  0.25
 
-# Python Basics: 
+#Day-04: Python Basics: 
 -	Hello world: To print hello world in python, write print followed by () and print you required data.
 -	Variables and types: Python does not need you to specify data types for variables.
 -	Deals with only float and integers numbers {integer a=7 and float a=7.0}
