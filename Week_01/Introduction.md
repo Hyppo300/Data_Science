@@ -24,13 +24,13 @@ Data scientists start by first selecting data sets (raw form) and then convertin
 insights from data. Uses those outcomes to form rules and then predicts on basis of those set of rules.
 
 ## Data science lifecycle:
-a)	Concept study – Study use case, your targets, given data and all related useful information. 
-b)	Data preparation - Make the data clean and valuable, remove missing and redundant values.
-c)	Model planning - Run exploratory data analysis and find out best model for your data. Divide into test (for validating model) and train 
-(for developing model) sets.
-d)	Model building – After selection, model is deployed and prediction are outcomes which are then validated for best accuracy. 
-e)	Communication – Data scientist should communicate his findings with business team.
-f)	Operationalize – Final reports, documents delivered by the team.
+1.	Concept study – Study use case, your targets, given data and all related useful information. 
+2.	Data preparation - Make the data clean and valuable, remove missing and redundant values.
+3.	Model planning - Run exploratory data analysis and find out best model for your data. Divide into test (for validating model) and train (for developing 
+  	model) sets.
+4.	Model building – After selection, model is deployed and prediction are outcomes which are then validated for best accuracy. 
+5.	Communication – Data scientist should communicate his findings with business team.
+6.	Operationalize – Final reports, documents delivered by the team.
 
 ## Demand for data scientist: 
 Data scientists are in high demand because companies are using their data to enhance their business and stay step ahead of their competition. 
@@ -63,15 +63,17 @@ AI: Data analytics + data science + business analytics + business intelligence} 
 
 # Combinatorics:
 [Reference](https://medium.com/@kirk.borne/data-science-meets-combinatorics-29738280342e)
+
 Combinatorics is the mathematics of counting and arranging. Combinatorics is often concerned with how things are arranged. In this context, an arrangement 
 is a way objects could be grouped. The most basic rules regarding arrangements are the rule of product and the rule of sum. These rules govern how to count 
 arrangements using the operations of multiplication and addition, respectively.
 Example: A fair coin is tossed twice. Write down the set of possible outcomes. What is the probability of obtaining?
-I. Exactly one head
-ii. No head
+1. Exactly one head
+2. No head
+
 Answer: p1 =  0.5, p2 =  0.25
 
-# Python: 
+# Python Basics: 
 -	Hello world: To print hello world in python, write print followed by () and print you required data.
 -	Variables and types: Python does not need you to specify data types for variables.
 -	Deals with only float and integers numbers {integer a=7 and float a=7.0}
