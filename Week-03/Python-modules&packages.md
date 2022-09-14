@@ -1,11 +1,9 @@
 # Python modeules and packages:
 A module is a file that contains functions and statements or a code which you can reuse in some other file. You are writing a program and you want to divide it 
-into components. You might want to use those components again in some other program. You can import the module and reuse the functions define din module. In this 
-way, you can also increase your code's efficiency. 
+into components. You might want to use those components again in some other program. You can import the module and reuse the functions define din module. In this way, you can also increase your code's efficiency. 
 
 ## Packages:
-You sometimes need all similar modules together at one place just like you place same files in one directory/folder in your computer. A package consists of similar 
-modules place for better reusability and accessibility. 
+You sometimes need all similar modules together at one place just like you place same files in one directory/folder in your computer. A package consists of similar modules place for better reusability and accessibility. A directory should contain __init__.py filefor python to consider it as a package.
 
 For instance, we can create a file named BMI.py.
 - It has function for calcuating BMi of a person.
