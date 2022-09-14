@@ -54,5 +54,4 @@ if __name__ == "__main__":
 
 
 ```
-    ![Output](https://user-images.githubusercontent.com/68047400/190231319-fc2191b6-93d5-4ac9-aa06-cbfd8cee4617.png)
-
+    
