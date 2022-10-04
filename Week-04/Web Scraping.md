@@ -12,3 +12,8 @@ class QuoteSpider(scrapy.Spider):
         title = response.css('title::text').extract()
         yield {'title_text': title}
 ```
+For extracting data/CSS selectors, we will use following commands:
+
+```terminal
+scrapy shell "http://quotes.toscrape.com/"
+```
