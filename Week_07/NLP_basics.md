@@ -9,9 +9,9 @@ Some of the applications of Natural Language Processing:
 
 ## Natural Language Understanding:
 Understanding what users wants to say, what is user’s intention and meaning. This is quite challenging and is very ambiguous task.
-Some of challenges we can face while performing natural language understanding are lexical ambiguity (tokenization leads to multiple meanings of one word and 
-answer should consider the context of question), syntactic ambiguity(structure of sentence should be valid), semantic ambiguity (meaning should be clear e.g., 
-car hit the pole while it was moving) and pragmatic ambiguity (context of phrase give multiple interpretations).
+Some of challenges we can face while performing natural language understanding are lexical ambiguity (tokenization leads to multiple meanings of one word plus 
+the answer should consider the context of question), syntactic ambiguity(structure of sentence should be valid), semantic ambiguity (meaning should be clear e.g., 
+"car hit the pole while it was moving" is ambiguous) and pragmatic ambiguity (context of phrase give multiple interpretations).
 
 ## Natural Language Generation:
 After understanding user’s statement, your answer should be in accordance with the requirements. It should be intelligent and conversational. Deals with 
