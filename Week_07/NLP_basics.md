@@ -1,7 +1,7 @@
 # Natural Language Processing:
 Humans communicate with each other in natural language which can be mixture of some languages. They understand each other because of this language. By using 
 Natural Language Processing, we want to enable a computer to understand the language as humans do and respond in the same way. 
-Applications of NLP:
+Some of the applications of Natural Language Processing:
 - Speech Recognition ( Identifies language by interpreting speech and acting in appropriate way e.g., Google assistant, Apple’s Siri)
 - Sentiment Analysis ( Rating or describing a view/opinion e.g., review is positive or negative)
 - Machine Translation (Translating text/speech from one language to another)
