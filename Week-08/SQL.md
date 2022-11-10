@@ -24,3 +24,4 @@ Relational Database has the following important features:
 - DCL: Data Control Language controls access to data (users/permissions)
 - DML: Data Management Language (insert, update, delete)
 
+### Implementation is performed in PostgreSQL.
