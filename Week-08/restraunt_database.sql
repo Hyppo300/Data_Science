@@ -112,3 +112,36 @@ SELECT staff.waiter_id, staff.supplier, branch.branch_name
 FROM staff
 JOIN branch    
 ON staff.waiter_id = branch.mgr_id;
+--Nested Queries
+SELECT customers.first_name
+FROM customers
+WHERE customers.cust_id IN (
+                          SELECT cust_id
+                          FROM (
+                                SELECT SUM(works_with.total_sales) AS totals, cust_id
+                                FROM works_with
+                                GROUP BY cust_id) AS total_client_sales
+                          WHERE totals > 100000
+);
+
+--Trigers
+
+CREATE TABLE trigger_test (
+     message VARCHAR(100)
+);
+
+
+
+
+DELIMITER $$
+CREATE
+    TRIGGER my_trigger BEFORE INSERT
+    ON staff
+    FOR EACH ROW BEGIN
+        INSERT INTO trigger_test VALUES('added new employee');
+    END$$
+DELIMITER ;
+INSERT INTO staff
+VALUES(109, 'Oscar',  21,'Martinez', 'Magen', 4, 3);
+
+
