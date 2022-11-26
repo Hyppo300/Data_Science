@@ -1,4 +1,4 @@
-``sql
+``
 create database flora; 
 show database;
 show tables;
