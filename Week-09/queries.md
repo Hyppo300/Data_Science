@@ -28,5 +28,19 @@ order by l.ID;
 select count(*) AS "Number_of_disease"
 from disease;
 
+select 'Total:' sum(Types)
+from Types
+group by ID;
+
+select max(Types) 
+from Types;
+
+select * , Types*ID AS total_types
+from Types
+where Types>4
+group by ID;
+
+
+
 
 ```
