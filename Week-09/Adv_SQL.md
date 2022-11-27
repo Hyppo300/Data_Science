@@ -22,7 +22,7 @@ Insert INTO Types(Name,ID, Season, Types)
 VALUES ("ZLLBURY\'s",11,"Spring",6);
 describe Types;
 delete FROM Types WHERE ID=5;
-drop TABLE Types;
+drop table Types;
 ```
 ## Database Structures
 - MyISAM (good for speed but does not support referential integrity. Default storage engine for MySQL.
@@ -30,4 +30,12 @@ drop TABLE Types;
 ```sql
 alter TABLE Types
 change Name Plant_Name varchar(255);
+alter table Types
+add column Breeed varchar(255);
+select * from Types;
+alter table Types
+modify Season varchar(254);
+describe Types;
+check table Types;
+
 ```
