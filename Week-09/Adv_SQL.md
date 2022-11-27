@@ -22,8 +22,12 @@ Insert INTO Types(Name,ID, Season, Types)
 VALUES ("ZLLBURY\'s",11,"Spring",6);
 describe Types;
 delete FROM Types WHERE ID=5;
+drop TABLE Types;
 ```
 ## Database Structures
 - MyISAM (good for speed but does not support referential integrity. Default storage engine for MySQL.
 - Innodb is transaction-safe engine. Allows row-level locking, one can use other rows while other one is being updated.
-- 
+```sql
+alter TABLE Types
+change Name Plant_Name varchar(255);
+```
